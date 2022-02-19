@@ -20,25 +20,25 @@ If you'd like to run specs for a particular problem, simply append the correspon
 
 You'll be working in the skeleton/movie_buff/ folder. Do the problems in 01_queries.rb before moving on to 02_queries.rb and then 03_queries.rb. Information on the tables you will be working with can be found below:
 
-# == Schema Information
-#
-# Table name: actors
-#
-#  id          :integer      not null, primary key
-#  name        :string
-#
-# Table name: movies
-#
-#  id          :integer      not null, primary key
-#  title       :string
-#  yr          :integer
-#  score       :float
-#  votes       :integer
-#  director_id :integer
-#
-# Table name: castings
-#
-#  id          :integer      not null, primary key
-#  movie_id    :integer      not null
-#  actor_id    :integer      not null
-#  ord         :integer
+ == Schema Information
+
+ Table name: actors
+
+  id          :integer      not null, primary key
+  name        :string
+
+ Table name: movies
+
+  id          :integer      not null, primary key
+  title       :string
+  yr          :integer
+  score       :float
+  votes       :integer
+  director_id :integer
+
+ Table name: castings
+ 
+  id          :integer      not null, primary key
+  movie_id    :integer      not null
+  actor_id    :integer      not null
+  ord         :integer
